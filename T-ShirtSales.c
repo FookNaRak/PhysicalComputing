@@ -13,13 +13,9 @@ int main()
         printf("Buy 2 Get 1\n");
         printf("%.2lf", promotion1);
     }
-    else if(promotion1 > promotion2){
+    else{
         printf("Discount %.0lf%%\n", discount_percent);
         printf("%.2lf", promotion2);
-    }
-    else{
-        printf("Buy 2 Get 1\n");
-        printf("%.2lf", promotion1);
     }
     return 0;
 }
