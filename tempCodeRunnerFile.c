@@ -1,0 +1,1 @@
+someone = (int)someone -32;
